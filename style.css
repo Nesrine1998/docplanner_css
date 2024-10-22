@@ -329,10 +329,6 @@ svg:not(:root) {
     height: 16px;
 }
 
-/* .brands-logo img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-} */
 
 .brands-logo .clinicloud,
 .brands-logo .gipo {
@@ -354,92 +350,14 @@ svg:not(:root) {
 }
 
 
-.stats {
-    background: #DAF6F5;
-    margin: 0;
-}
 
-.section__inner {
-    zoom: 1;
-    max-width: 1015px;
-    padding: 0 20px;
-    margin: 0 auto;
-    position: relative;
-
-}
-
-.stats__header {
-    margin-top: 2em;
-    color: #747474;
-}
-
-.stats__header h1 {
-    font-size: 2.125rem;
-    color: #00b39b;
-}
-
-.stats__header p {
-    max-width: 415px;
-    font-size: .875em;
-    font-weight: 400;
-    line-height: 1.7142857143;
-}
-
-.col-2 {
-    width: 50%;
-}
-
-.grid {
-    margin: 0 -10px;
-}
-
-.fade-elements>.fade-elements__visible {
-    transform: translate(0);
-    opacity: 1;
-}
-
-.stats__item {
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
-    height: 250px;
-    text-align: center;
-    padding: 15px;
-    font-size: .8125em;
-}
-
-.vert-align {
-    display: table;
-    width: 100%;
-    height: 100%;
-}
-
-.vert-align h3 {
-    font-size: 1.8461538462em;
-    color: #00b39b;
-    margin: .5em 0;
-}
-
-.vert-align p {
-    font-size: 1.8461538462em;
-    margin: .5em 0;
-    font-weight: 400;
-    font-family: Roboto, Arial, sans-serif;
-    color: #747474;
-}
-
-
-
-
-
-
-#platform {
+#stats {
     background: #DAF6F5;
     margin: 0;
 }
 
 
-#platform .container {
+#stats .container {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
